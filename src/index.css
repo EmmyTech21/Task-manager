@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height:100px;
+}
+
+header h1 {
+    margin:20px 10px 15px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; 
+}
+
+form input, form button {
+    margin: 5px;
+    font-size: 20px; 
+    padding: 15px 30px; 
+    height: 60px; 
+    width: auto;
+}
+
+
+form .input-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.todo > div {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; /* This will push the SVG to the end */
+    margin: 10px 0;
+    width:50%;
+   
+}
+
+.todo input[type="checkbox"], .todo p, .todo svg {
+    margin: 10px 20px; 
+    font-size:25px;
+    cursor: pointer; 
+}
+
+svg{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    color:whites !important;
+    
+}
+.check {
+   margin-right: 10px; 
+   cursor: pointer; 
+   display:block;
+   transform: scale(2.5);
+   margin-right: 5px; 
+}
+
+.todo-cen{
+    padding:30px 20px;
+    height:100px;
+    
+}
